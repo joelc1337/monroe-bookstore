@@ -1,0 +1,572 @@
+01-14-2017 @ 16:20:56 - Info: Begin processing payment for order 27 for the amount of 15
+01-14-2017 @ 16:20:56 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 1500
+    [description] => Monroe Mustangs Bookstore - Order 27
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19buGvInvpg6BuF4XWWRbbFe
+)
+
+01-14-2017 @ 16:20:56 - Processing response: stdClass Object
+(
+    [id] => ch_19buGyInvpg6BuF4ICHSvHqq
+    [object] => charge
+    [amount] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19buGyInvpg6BuF4zJfI1n29
+            [object] => balance_transaction
+            [amount] => 1500
+            [available_on] => 1484956800
+            [created] => 1484410856
+            [currency] => usd
+            [description] => Monroe Mustangs Bookstore - Order 27
+            [fee] => 74
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 74
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 1426
+            [source] => ch_19buGyInvpg6BuF4ICHSvHqq
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19buGyInvpg6BuF4ICHSvHqq
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1484410856
+    [currency] => usd
+    [customer] => 
+    [description] => Monroe Mustangs Bookstore - Order 27
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19buGyInvpg6BuF4ICHSvHqq/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19buGvInvpg6BuF4xZZEEpoZ
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2017
+            [fingerprint] => EiVRG8dAlpOTPBTJ
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => luis1abreu11@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+01-14-2017 @ 16:20:56 - Success: Stripe charge complete (Charge ID: ch_19buGyInvpg6BuF4ICHSvHqq)
+01-14-2017 @ 17:36:29 - Info: Begin processing payment for order 47 for the amount of 5
+01-14-2017 @ 17:36:29 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 500
+    [description] => Monroe Mustangs Bookstore - Order 47
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19bvS2Invpg6BuF4CvZOzMG3
+)
+
+01-14-2017 @ 17:36:30 - Processing response: stdClass Object
+(
+    [id] => ch_19bvS5Invpg6BuF4ZZJW1peV
+    [object] => charge
+    [amount] => 500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19bvS6Invpg6BuF4AuCStzX3
+            [object] => balance_transaction
+            [amount] => 500
+            [available_on] => 1484956800
+            [created] => 1484415389
+            [currency] => usd
+            [description] => Monroe Mustangs Bookstore - Order 47
+            [fee] => 45
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 45
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 455
+            [source] => ch_19bvS5Invpg6BuF4ZZJW1peV
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19bvS5Invpg6BuF4ZZJW1peV
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1484415389
+    [currency] => usd
+    [customer] => 
+    [description] => Monroe Mustangs Bookstore - Order 47
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19bvS5Invpg6BuF4ZZJW1peV/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19bvS2Invpg6BuF4ZglZqFXR
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 12
+            [exp_year] => 2032
+            [fingerprint] => EiVRG8dAlpOTPBTJ
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => luis1abreu11@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+01-14-2017 @ 17:36:30 - Success: Stripe charge complete (Charge ID: ch_19bvS5Invpg6BuF4ZZJW1peV)
+01-14-2017 @ 18:05:33 - Info: Begin processing payment for order 50 for the amount of 15
+01-14-2017 @ 18:05:33 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 1500
+    [description] => Monroe Mustangs Bookstore - Order 50
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19bvuAInvpg6BuF49eixA2Um
+)
+
+01-14-2017 @ 18:05:33 - Processing response: stdClass Object
+(
+    [id] => ch_19bvuDInvpg6BuF4VHVU2Sjc
+    [object] => charge
+    [amount] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19bvuDInvpg6BuF4IzFRzxhA
+            [object] => balance_transaction
+            [amount] => 1500
+            [available_on] => 1484956800
+            [created] => 1484417133
+            [currency] => usd
+            [description] => Monroe Mustangs Bookstore - Order 50
+            [fee] => 74
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 74
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 1426
+            [source] => ch_19bvuDInvpg6BuF4VHVU2Sjc
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19bvuDInvpg6BuF4VHVU2Sjc
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1484417133
+    [currency] => usd
+    [customer] => 
+    [description] => Monroe Mustangs Bookstore - Order 50
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19bvuDInvpg6BuF4VHVU2Sjc/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19bvuAInvpg6BuF4LdiU5JIR
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2044
+            [fingerprint] => EiVRG8dAlpOTPBTJ
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => luis1abreu11@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+01-14-2017 @ 18:05:34 - Success: Stripe charge complete (Charge ID: ch_19bvuDInvpg6BuF4VHVU2Sjc)
+01-15-2017 @ 00:01:33 - Info: Begin processing payment for order 51 for the amount of 15
+01-15-2017 @ 00:01:33 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 1500
+    [description] => Monroe Mustangs Bookstore - Order 51
+    [capture] => true
+    [expand[]] => balance_transaction
+    [source] => tok_19c1SfInvpg6BuF4OmOuoBdz
+)
+
+01-15-2017 @ 00:01:33 - Processing response: stdClass Object
+(
+    [id] => ch_19c1SjInvpg6BuF4HwVdvFf4
+    [object] => charge
+    [amount] => 1500
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [balance_transaction] => stdClass Object
+        (
+            [id] => txn_19c1SjInvpg6BuF4PQ0M4zfH
+            [object] => balance_transaction
+            [amount] => 1500
+            [available_on] => 1485043200
+            [created] => 1484438493
+            [currency] => usd
+            [description] => Monroe Mustangs Bookstore - Order 51
+            [fee] => 74
+            [fee_details] => Array
+                (
+                    [0] => stdClass Object
+                        (
+                            [amount] => 74
+                            [application] => 
+                            [currency] => usd
+                            [description] => Stripe processing fees
+                            [type] => stripe_fee
+                        )
+
+                )
+
+            [net] => 1426
+            [source] => ch_19c1SjInvpg6BuF4HwVdvFf4
+            [sourced_transfers] => stdClass Object
+                (
+                    [object] => list
+                    [data] => Array
+                        (
+                        )
+
+                    [has_more] => 
+                    [total_count] => 0
+                    [url] => /v1/transfers?source_transaction=ch_19c1SjInvpg6BuF4HwVdvFf4
+                )
+
+            [status] => pending
+            [type] => charge
+        )
+
+    [captured] => 1
+    [created] => 1484438493
+    [currency] => usd
+    [customer] => 
+    [description] => Monroe Mustangs Bookstore - Order 51
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+        )
+
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [receipt_email] => 
+    [receipt_number] => 
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_19c1SjInvpg6BuF4HwVdvFf4/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => card_19c1SfInvpg6BuF4HXsr2D5n
+            [object] => card
+            [address_city] => 
+            [address_country] => 
+            [address_line1] => 
+            [address_line1_check] => 
+            [address_line2] => 
+            [address_state] => 
+            [address_zip] => 
+            [address_zip_check] => 
+            [brand] => Visa
+            [country] => US
+            [customer] => 
+            [cvc_check] => pass
+            [dynamic_last4] => 
+            [exp_month] => 2
+            [exp_year] => 2032
+            [fingerprint] => EiVRG8dAlpOTPBTJ
+            [funding] => credit
+            [last4] => 4242
+            [metadata] => stdClass Object
+                (
+                )
+
+            [name] => luis1abreu11@gmail.com
+            [tokenization_method] => 
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+)
+
+01-15-2017 @ 00:01:34 - Success: Stripe charge complete (Charge ID: ch_19c1SjInvpg6BuF4HwVdvFf4)
